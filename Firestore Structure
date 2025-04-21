@@ -1,0 +1,15 @@
+teams: {
+  id: {
+    name: "Team Name",
+    logo: "https://...",
+    createdBy: "uid",
+    members: [
+      {
+        name: "John",
+        contact: "email/phone/uid",
+        status: "Invited/Accepted/Declined",
+        role: "captain/player"
+      }
+    ]
+  }
+}
