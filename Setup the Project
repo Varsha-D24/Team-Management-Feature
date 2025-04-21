@@ -1,0 +1,11 @@
+Initialize a new React Native project:
+
+bash
+npx react-native init TeamManagerApp
+Install dependencies:
+
+bash
+npm install @react-navigation/native @react-navigation/stack
+npm install react-redux @reduxjs/toolkit
+npm install firebase
+npm install react-native-image-picker
