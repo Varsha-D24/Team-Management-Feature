@@ -1,0 +1,30 @@
+Create a Firebase project and:
+
+Set up Firestore and Storage.
+
+Enable Email/Phone Authentication (optional for testing).
+
+Initialize Firebase in your project:
+
+js
+Copy
+Edit
+// firebaseConfig.js
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
+const firebaseConfig = {
+  apiKey: "...",
+  authDomain: "...",
+  projectId: "...",
+  storageBucket: "...",
+  messagingSenderId: "...",
+  appId: "..."
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+const storage = getStorage(app);
+
+export { db, storage };
