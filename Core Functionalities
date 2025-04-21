@@ -1,0 +1,25 @@
+Team Listing Screen:
+
+Fetch teams created/joined by the current user.
+
+Create/Edit Team Screen:
+
+Upload logo to Firebase Storage.
+
+Add team to Firestore with members.
+
+Member Management:
+
+Display colored badges for statuses.
+
+Option to re-invite/remove members.
+
+Captain Assignment:
+
+Default: creator is captain.
+
+Can change only to Accepted member.
+
+Start Registration Button:
+
+Enabled only if all 5 members accepted.
