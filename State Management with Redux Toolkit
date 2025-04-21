@@ -1,0 +1,5 @@
+Define slices:
+
+teamsSlice: List of teams created/joined.
+
+membersSlice: Members with status, name, etc.
